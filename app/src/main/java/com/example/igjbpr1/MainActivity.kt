@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
             val text = userData.text.toString().trim()
             if ( text != "")
                 adapter.insert(text, 0)
-
         }
     }
 }
